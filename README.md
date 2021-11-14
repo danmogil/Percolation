@@ -1,7 +1,7 @@
 # Percolation
 A system is modeled using an n x n grid consisting initially of all blocked cells. Cells can be blocked, open(empty), or open(full) = connected to the top row. The system percolates once a connection is made between the top row and the bottom row. 
 
-Cells are randomly opened until the system percolates (Monte Carlo method). The number of open cells compared to blocked cells at percolation represents the conditions needed for one to pass through the other (ex. water passing through a porrus material). Sorry for the vague/weak explanation in the last sentence, this model simply has many differing use cases.
+Cells are randomly opened until the system percolates (Monte Carlo method). The number of open cells compared to blocked cells at percolation represents the conditions needed for one to pass through the other (ex. water passing through a porrus material).
 
 PercolationStats.java runs x amount of trials on an n x n grid yielding the mean(percolation threshold), the standard deviation(threshold sharpness), and the 95% confidence interval for said threshold.
 
